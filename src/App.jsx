@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className='mx-auto max-w-screen-md mt-4 py-5 px-32 bg-slate-300 '>
-      
+      <p className='text-sm text-gray-400 text-center'>Please type below and wait for 5-10 seconds to get weather report.</p>
       <Input
         onSearch={handleSearch}
         humidity={weatherData?.current?.relative_humidity_2m}
